@@ -1,5 +1,4 @@
 #-*- coding:utf-8 -*-
-from numpy.random import random_sample
 from math import exp
 import numpy as np
 
@@ -64,7 +63,7 @@ class perceptron():
 		z = 0
 		for sx in range(sx+1):
 					#print t[st]
-					z = z+(int(x[sx])*int(t[st]))
+					z = z+(int(x[sx])*int(t[sx]))
 		z = z+bias
 
 		print 'Aktivasyon fonksiyonunu seciniz.\n'
